@@ -1,0 +1,35 @@
+{
+  "name": "cv-hugomaitre",
+  "version": "1.0.0",
+  "description": "Personal cv",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmflashy/cv-hugomaitre.git"
+  },
+  "keywords": [
+    "cv",
+    "hugomaitre",
+    "react",
+    "redux",
+    "nodejs"
+  ],
+  "author": "Hugo Maitre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hmflashy/cv-hugomaitre/issues"
+  },
+  "homepage": "https://github.com/hmflashy/cv-hugomaitre#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
