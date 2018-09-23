@@ -1,4 +1,5 @@
 import React from "react"
+import styles from "./header.css"
 
 class Header extends React.Component {
 
@@ -8,8 +9,8 @@ class Header extends React.Component {
 
     render() {
         return (
-            <div id="header">
-                Loris le best
+            <div className={styles.header}>
+                sslmsml
             </div>
         );
     }
